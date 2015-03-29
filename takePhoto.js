@@ -31,3 +31,5 @@ pngStream.on('data', function(img){
 setInterval(function(){
 	save = true;
 }, 3600 * 1000 / frequency);
+
+client.createREPL();
