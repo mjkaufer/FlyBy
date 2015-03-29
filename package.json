@@ -18,6 +18,6 @@
   "homepage": "https://github.com/mjkaufer/FlyBy",
   "dependencies": {
     "ar-drone": "^0.3.3",
-    "node-twitter": "^0.5.2"
+    "twit": "~1.1.20"
   }
 }
