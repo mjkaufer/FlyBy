@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mjkaufer/FlyBy",
   "dependencies": {
     "ar-drone": "^0.3.3",
-    "twit": "~1.1.20"
+    "twit": "~1.1.20",
+    "ffmpeg": "0.0.4"
   }
 }

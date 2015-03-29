@@ -1,11 +1,12 @@
 var arDrone = require('ar-drone');
 var client  = arDrone.createClient();
+var fs = require("fs");
 
-client.takeOff();
+// client.takeoff();
 
 var currentImage = null;
 
-var frequency = 120;//pictures per hour
+var frequency = 1800;//pictures per hour
 var save = false;
 
 var pngStream = client.getPngStream();
@@ -15,7 +16,7 @@ pngStream.on('data', function(img){
 		//save the picture
 		var name = new Date().getTime();
 
-		require("fs").writeFile("images/" + name + ".png", img, 'base64', function(err) {
+		fs.writeFile("images/" + name + ".png", img, 'base64', function(err) {
 			console.log(err);
 		});
 		console.log("Snap");
