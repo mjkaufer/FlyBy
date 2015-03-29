@@ -6,7 +6,7 @@ var fs = require("fs");
 
 var currentImage = null;
 
-var frequency = 1800;//pictures per hour
+var frequency = 600;//pictures per hour
 var save = false;
 
 var pngStream = client.getPngStream();
