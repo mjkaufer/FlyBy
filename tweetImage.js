@@ -48,7 +48,7 @@ fs.readdir('./images/', function(err, files){
 		}
 
 
-		tweetImage(__dirname + "\\images\\" + imageName, "Image taken at " + date);
+		tweetImage(__dirname + "/images/" + imageName, "Image taken at " + date);
 	}
 
 })

@@ -17,9 +17,9 @@ pngStream.on('data', function(img){
 		var name = new Date().getTime();
 
 		fs.writeFile("images/" + name + ".png", img, 'base64', function(err) {
-			console.log(err);
+			//console.log(err);
 		});
-		console.log("Snap");
+		//console.log("Snap");
 		save = false;
 
 		//send twitter by reading from name.jpg
