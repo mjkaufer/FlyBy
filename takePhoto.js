@@ -32,4 +32,4 @@ setInterval(function(){
 	save = true;
 }, 3600 * 1000 / frequency);
 
-client.createREPL();
+client.createRepl();
