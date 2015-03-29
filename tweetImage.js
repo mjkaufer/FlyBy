@@ -22,6 +22,9 @@ function tweetImage(path, text){
 
 	  T.post('statuses/update', params, function (err, data, response) {
 	    console.log(data)
+	    fs.unlink(path, function(err){
+	    	console.log("Successfully tweeted and deleted")
+	    })
 	  })
 	})
 }
