@@ -1,10 +1,10 @@
 var fs = require('fs');
 var Twit = require('twit')
 var T = new Twit({
-	consumer_key:'sI4d8txZhBSGVglIszipe6R7Z',
-	consumer_secret:'9kcvNWBYfFwAsJ44vkUDBZvSzPqgyaQQ2NeDlv6xHOtVj6sOQK',
-	access_token:'3124837948-2X2CkqHhwAJ67B9AdBok4nN1Y3XXB7todqwaZWW',
-	access_token_secret:  'ztPOLjti9E0UWn2NQBxr2DdYjXc8CknNpjBeA15pivrBR'
+	consumer_key:'GuBgzAP8T886huUdQiAANQecA',
+	consumer_secret:'Cfc5MgDH77FrnZnfl0P8NlviymoJZLbh4iu0eSxPZMUfSYcBUg',
+	access_token:'3126546177-aVMBQlTF27kFuDCaJDEfe0yjIyxtE7wu5cEAMDx',
+	access_token_secret:  'CHaoksEHCYYTxSqhzGEk9Y7Trby1EJY1scoeFIOiHiOaF'
 })
 
 function tweetImage(path, text){
